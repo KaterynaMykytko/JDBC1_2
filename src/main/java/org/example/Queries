@@ -1,0 +1,12 @@
+SELECT * FROM customer WHERE CustomerId = 3 AND firstName = 'Ksenia';
+
+SELECT * FROM Customer;
+
+UPDATE Customer SET city = 'Chernihiv' WHERE customerId = 2;
+INSERT INTO Customer(customerId, FirstName, LastName, city, phone) VALUES (3, 'Ksenia', 'Alekseeva', 'Chernihiv', 45663345);
+INSERT INTO Customer(customerId, FirstName, LastName, city, phone) VALUES (5, 'Yaroslav', 'Mykytko', 'Kiev', 45666789);
+INSERT INTO Customer(customerId, FirstName, LastName, city, phone) VALUES (6, 'Marina', 'Popelo', 'Vinnitsa', 23433456);
+INSERT INTO Customer(customerId, FirstName, LastName, city, phone) VALUES (7, 'Ksenia', 'Nilsen', 'Oslo', 34567827);
+INSERT INTO Customer(customerId, FirstName, LastName, city, phone) VALUES (8, 'Vadim', 'Bondar', 'Kiev', 23456112);
+
+DELETE FROM customer WHERE customerId = 6;
